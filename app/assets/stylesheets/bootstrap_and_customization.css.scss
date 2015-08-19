@@ -1,9 +1,20 @@
-$body-bg:        #9b59b6;
-$btn-info-bg: #bdc3c7;
-$btn-info-color: #9b59b6;
-$btn-info-border: #ecf0f1;
-$jumbotron-bg: #2c3e50;
-$jumbotron-heading-color: #bdc3c7;
-$jumbotron-color: #bdc3c7;
+@import url(http://fonts.googleapis.com/css?family=Corben:400,700);
+
+$body-bg:                           #9b59b6;
+$font-family-sans-serif:            'Corben', cursive;
+$btn-primary-bg:                    #16a085;
+$btn-primary-color:                 #8e44ad;
+$btn-primary-border:                #CC9900;
+$btn-info-bg:                       #3498db;
+$btn-info-color:                    #2ecc71;
+$btn-info-border:                   #CC9900;
+$jumbotron-bg:                      #2c3e50;
+$jumbotron-border:					#f1c40f;
+$jumbotron-heading-color:           #8e44ad;
+$jumbotron-color:                   #7f8c8d;
 
 @import 'bootstrap';
+
+.center {
+     text-align: center;
+}
